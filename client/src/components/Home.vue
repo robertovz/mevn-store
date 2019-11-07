@@ -112,7 +112,7 @@
           <div class="col-md-4">
             <div class="top-wrapper">
               <div class="banner justify-content-center align-items-center d-flex">
-                <img src="/img/banners/home-img03.png" alt />
+                <img src="../assets/img/banners/home-img03.png" alt />
                 <div class="p-2 text-category">
                   <div class="title-category">Road Bikes</div>
                   <div class="subtext-category mt-2 text-left">
@@ -167,7 +167,7 @@
             >
               <div class="top-wrapper">
                 <div class="banner justify-content-center align-items-center d-flex">
-                  <img src="/img/banners/home-img02.png" alt />
+                  <img src="../assets/img/banners/home-img02.png" alt />
                   <div class="p-2 text-category">
                     <div class="title-category">Mountain Bikes</div>
                     <div class="subtext-category mt-2 text-left">
@@ -216,7 +216,7 @@
             >
               <div class="top-wrapper">
                 <div class="banner justify-content-center align-items-center d-flex">
-                  <img src="/img/banners/home-img01.png" alt />
+                  <img src="../assets/img/banners/home-img01.png" alt />
                   <div class="p-2 text-category">
                     <div class="title-category">Comfort Bikes</div>
                     <div class="subtext-category mt-2 text-left">
@@ -274,7 +274,7 @@
                     </div>
                   </div>
                   <div class="col-md-4 text-center">
-                    <img src="/img/banners/home-img01.png" class="card-img-top" alt />
+                    <img src="../assets/img/banners/home-img01.png" class="card-img-top" alt />
                   </div>
                 </div>
               </div>
@@ -291,7 +291,7 @@
                     </div>
                   </div>
                   <div class="col-md-4 text-center">
-                    <img src="/img/banners/home-img03.png" class="card-img-top" alt />
+                    <img src="../assets/img/banners/home-img03.png" class="card-img-top" alt />
                   </div>
                 </div>
               </div>
@@ -446,7 +446,7 @@ export default {
   }
 }
 .banner-slide .banner-01 {
-  background: url("/img/banners/banner-01.jpg") no-repeat center center;
+  background: url("../assets/img/banners/banner-01.jpg") no-repeat center center;
   background-size: cover;
   background-size: cover; /* or contain depending on what you want */
   background-position: center center;
@@ -457,13 +457,13 @@ export default {
   height: 250px;
 }
 .banner-slide .banner-02 {
-  background: url("/img/banners/banner-02.jpeg") no-repeat center center;
+  background: url("../assets/img/banners/banner-02.jpeg") no-repeat center center;
   background-size: cover;
   color: #fff;
   display: flex;
 }
 .banner-slide .banner-03 {
-  background: url("/img/banners/banner-03.jpg") no-repeat center center;
+  background: url("../assets/img/banners/banner-03.jpg") no-repeat center center;
   background-size: cover;
   color: #fff;
   display: flex;
@@ -577,7 +577,7 @@ export default {
   transition: all 0.3s ease-in-out;
   .banner {
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-      url("/img/banners/simple-background-1.jpg");
+      url("../assets/img/banners/simple-background-1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
