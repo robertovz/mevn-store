@@ -1,0 +1,60 @@
+@import 'bootstrap';
+@import './admin.scss';
+@import './app.scss';
+
+body {
+    font-family: 'Nunito', sans-serif !important;
+    background: #e9ecef;
+    color: #a6a8a8;
+}
+
+.custom-btn {
+    padding: 0.5rem 2.5rem;
+}
+
+.sidebar-content {
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+}
+
+.sidebar-content::-webkit-scrollbar {
+    display: none;
+}
+
+.intro {
+    margin-top: 3rem;
+}
+
+.bcustom-primary {
+    color: #fff!important;
+    background: #17a2b8!important;
+    border: 1px solid #17a2b8!important;
+    border-radius: 0px!important;    
+}
+
+.bcustom-primary .icon {
+    font-size: 17px;
+}
+
+.bcustom-secondary {
+    color: #000!important;
+    background: lightgrey!important;
+    border: 1px solid lightgrey!important;
+    border-radius: 0px!important;
+}
+
+.bcustom-secondary.icon {
+    font-size: 17px;
+}
+
+.bcustom-secondary:hover {
+    color: #fff!important;
+    background: grey!important;
+}
+
+.modal-wrapper-title {
+    background: #3490dc;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 0;
+  }
