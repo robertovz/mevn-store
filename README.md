@@ -17,7 +17,7 @@ Ecommerce APP built with MEVN
 ## Technologies
 This project uses:
 
-- Mysql NoSQL database
+- Mysql database
 
 - Express for an HTTP Server
 
